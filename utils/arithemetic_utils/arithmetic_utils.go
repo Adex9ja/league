@@ -1,7 +1,6 @@
 package arithemetic_utils
 
 import (
-	"fmt"
 	"github.com/Adex9ja/solution/utils/errors"
 	"strconv"
 )
@@ -20,15 +19,15 @@ func Sum(row []string) (string, *errors.ErrorResponser) {
 }
 
 func Multiplication(row []string) (string, *errors.ErrorResponser) {
-	sum := 1
+	mul := 1
 	for _, s := range row {
 		num, err := strconv.Atoi(s)
 
 		if err != nil {
 			return "", errors.NewBadRequestError("Not a number")
 		}
-		sum *= num
+		mul *= num
 	}
-	fmt.Println(sum)
-	return strconv.Itoa(sum), nil
+
+	return strconv.Itoa(mul), nil
 }
