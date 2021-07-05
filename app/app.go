@@ -1,3 +1,4 @@
+//This takes care of how the application works and we can start the application
 package app
 
 import "github.com/gin-gonic/gin"

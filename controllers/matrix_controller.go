@@ -1,3 +1,5 @@
+//This the input layer of the application
+//Every request coming into the app will be handled in this file
 package controllers
 
 import (

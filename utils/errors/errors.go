@@ -1,3 +1,4 @@
+//The error interface being used by the app in different error format
 package errors
 
 import (
