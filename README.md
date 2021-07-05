@@ -5,3 +5,7 @@
 **App architecture**
 
 _Model-View-Controller_
+
+**To Start the app**
+
+`run - go run main.go`
